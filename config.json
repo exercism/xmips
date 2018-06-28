@@ -115,6 +115,36 @@
       "unlocked_by": null,
       "difficulty": 7,
       "topics": []
+    },
+    {
+      "slug": "secret-handshake",
+      "uuid": "a77c7429-afa3-4783-b4bb-8cdbfc5a9505",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": []
+    },
+    {
+      "slug": "collatz-conjecture",
+      "uuid": "43278c5c-8a2d-4f0e-9fd2-9a1161f90638",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "functions",
+        "mathematics"
+      ]
+    },
+    {
+      "slug": "hello-world",
+      "uuid": "c7529bb3-db3f-4c8e-9e67-9a71c84bee3f",
+      "core": true,
+      "auto_approve": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "text_formatting"
+      ]
     }
   ]
 }
