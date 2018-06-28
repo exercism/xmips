@@ -1,16 +1,31 @@
 {
   "language": "MIPS Assembly",
   "active": true,
-  "blurb": "",
+  "blurb": "MIPS is a great way to learn computer architecture. MARS IDE used in this track is cross platform and makes learning MIPS easy.",
   "test_pattern": "runner.mips",
   "exercises": [
+    {
+      "slug": "hello-world",
+      "uuid": "c7529bb3-db3f-4c8e-9e67-9a71c84bee3f",
+      "core": true,
+      "auto_approve": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "text_formatting"
+      ]
+    },
     {
       "slug": "binary",
       "uuid": "5fd96880-6af2-415d-9b81-8c6eeffc3a38",
       "core": true,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "octal",
@@ -18,7 +33,10 @@
       "core": false,
       "unlocked_by": "binary",
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "trinary",
@@ -26,7 +44,10 @@
       "core": false,
       "unlocked_by": "binary",
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "hexadecimal",
@@ -34,7 +55,10 @@
       "core": false,
       "unlocked_by": "binary",
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "leap",
@@ -42,7 +66,9 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "bitwise_operations"
+      ]
     },
     {
       "slug": "difference-of-squares",
@@ -50,7 +76,10 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": []
+      "topics": [
+        "algorithms",
+        "mathematics"
+      ]
     },
     {
       "slug": "hamming",
@@ -58,7 +87,10 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 3,
-      "topics": []
+      "topics": [
+        "mathematics",
+        "strings"
+      ]
     },
     {
       "slug": "rna-transcription",
@@ -66,7 +98,10 @@
       "core": false,
       "unlocked_by": "hamming",
       "difficulty": 3,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "isogram",
@@ -74,7 +109,10 @@
       "core": false,
       "unlocked_by": "hamming",
       "difficulty": 3,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "strings"
+      ]
     },
     {
       "slug": "triangle",
@@ -82,7 +120,10 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 2,
-      "topics": []
+      "topics": [
+        "bitwise_operations",
+        "mathematics"
+      ]
     },
     {
       "slug": "atbash-cipher",
@@ -90,7 +131,9 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 4,
-      "topics": []
+      "topics": [
+        "cryptography"
+      ]
     },
     {
       "slug": "scrabble-score",
@@ -98,7 +141,9 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 5,
-      "topics": []
+      "topics": [
+        "games"
+      ]
     },
     {
       "slug": "raindrops",
@@ -106,7 +151,10 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 5,
-      "topics": []
+      "topics": [
+        "logic",
+        "strings"
+      ]
     },
     {
       "slug": "nth-prime",
@@ -114,7 +162,30 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 7,
-      "topics": []
+      "topics": [
+        "mathematics",
+        "sequences"
+      ]
+    },
+    {
+      "slug": "secret-handshake",
+      "uuid": "a77c7429-afa3-4783-b4bb-8cdbfc5a9505",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "bitwise_operations"
+      ]
+    },
+    {
+      "slug": "collatz-conjecture",
+      "uuid": "43278c5c-8a2d-4f0e-9fd2-9a1161f90638",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "mathematics"
+      ]
     }
   ]
 }
